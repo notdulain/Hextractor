@@ -4,7 +4,7 @@
     DllCall("SetSystemCursor", "Ptr", hCross, "UInt", 32512)
 
     wasClicked := false
-    SetTimer, WatchMouse, 10 ;refresh cursor every 10ms
+    SetTimer, WatchMouse, 10 ;refresh cursor every 10milli seconds
 return
 
 WatchMouse:
