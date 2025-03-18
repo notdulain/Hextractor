@@ -1,4 +1,7 @@
-﻿^!c::  ; Hotkey: Ctrl+Alt+C
+﻿; Set a custom icon for the tray
+Menu, Tray, Icon, hextractor.ico
+
+^!c::  ; Hotkey: Ctrl+Alt+C
     ;turn the mouse ponter to crosshairs
     hCross := DllCall("LoadCursor", "UInt", 0, "Int", 32515, "Ptr")
     DllCall("SetSystemCursor", "Ptr", hCross, "UInt", 32512)
